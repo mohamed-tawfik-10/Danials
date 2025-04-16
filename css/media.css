@@ -1,0 +1,159 @@
+/* الوضع الطبيعي: اللينكات على اليمين (مش محتاج نغير) */
+
+/* الوضع الريسبونسيف (شاشة صغيرة): نخلي اللينكات شمال */
+@media (max-width: 991px) {
+    .navbar-collapse {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.95);
+      width: 100%;
+      padding: 15px 20px;
+      z-index: 999;
+    }
+  
+    .navbar-nav {
+      flex-direction: column;
+      align-items: flex-start; /* خلي اللينكات شمال */
+    }
+  
+    .navbar-nav .nav-link {
+      width: 100%;
+      text-align: left;
+      padding-left: 15px;
+    }
+  
+    .navbar-nav.ms-auto {
+      margin-left: 0 !important; /* نلغي الـ auto */
+    }
+  }
+  
+@media (max-width: 768px) {
+    .inner h1 {
+        font-size: 35px;
+    }
+
+    .animation {
+        font-size: 28px !important;
+    }
+
+    .social-icon {
+        font-size: 18px;
+        padding: 10px;
+        margin: 5px;
+    }
+}
+
+@media (max-width: 767px) {
+    .row {
+        display: block;
+        text-align: center;
+    }
+
+    .col-md-3 {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .icon-design {
+        padding: 15px;
+        font-size: 40px;
+    }
+
+    .fs-2 {
+        font-size: 1.5rem;
+    }
+
+    .text-dark {
+        font-size: 1.2rem;
+    }
+
+    .text-secondary {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 767px) {
+    .col-md-4 {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .contentlog p {
+        font-size: 18px;
+    }
+
+    .fs-4 {
+        font-size: 1.2rem;
+    }
+
+    .itemhover {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .contentlog {
+        padding: 10px;
+    }
+}/* تحسين استجابة الصفحة للأجهزة الصغيرة */
+@media (max-width: 1199px) {
+    .width90 {
+        width: 90%;
+    }
+
+    .col-md-3 {
+        width: 45%; /* تعديل لتناسب العرض المتوسط */
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    .width90 {
+        width: 95%; /* توسيع العرض قليلاً للأجهزة ذات الشاشات الأصغر */
+    }
+
+    .col-md-3 {
+        width: 48%; /* تعديل عرض الأعمدة لتناسب الشاشات الأصغر */
+    }
+
+    .fs-5 {
+        font-size: 1rem; /* تصغير الخط للأجهزة الصغيرة */
+    }
+
+    .form-floating textarea {
+        height: auto;
+    }
+
+    .btnhover {
+        width: 100%; /* جعل الأزرار تأخذ العرض الكامل */
+        padding: 12px;
+        font-size: 1rem;
+    }
+}
+
+/* للهواتف المحمولة (أقل من 768px) */
+@media (max-width: 767px) {
+    .width90 {
+        width: 100%; /* عرض الأعمدة بالكامل */
+    }
+
+    .col-md-3 {
+        width: 100%; /* عرض الأعمدة بالكامل */
+        margin-bottom: 15px;
+    }
+
+    .fs-5 {
+        font-size: 0.9rem; /* تصغير الخط بشكل أكبر على الهواتف */
+    }
+
+    .form-floating textarea {
+        height: auto; /* التحكم في حجم النص في مربع الإدخال */
+    }
+
+    .btnhover {
+        width: 100%; /* الزر يأخذ العرض بالكامل على الهاتف */
+        padding: 14px;
+        font-size: 1.1rem; /* زيادة حجم الخط قليلاً */
+    }
+}

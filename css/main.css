@@ -1,0 +1,726 @@
+.Daniels {
+    background-image: url(../imgs/bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+
+
+
+}
+
+.navbar a {
+    color: #fff !important;
+    font-size: 15px;
+    transition: 0.3s ease;
+  }
+  
+  .navbar li {
+    padding-left: 30px;
+  }
+  .navbar .nav-link.active {
+    color: #8B0000 !important; /* أحمر داكن */
+  }
+  
+
+  .home {
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.inner h1 {
+    font-size: 50px;
+    font-family: Montserrat, sans-serif;
+}
+
+.animation::after {
+    content: "";
+    animation: username infinite 20s linear;
+}
+.social-icon {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    background-color: crimson;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+@keyframes username {
+    0% {
+        content: "D|";
+    }
+
+    1% {
+        content: "De |";
+    }
+
+    2% {
+        content: "Des |";
+    }
+
+    3% {
+        content: "Desi |";
+    }
+
+    4% {
+        content: "Desig |";
+    }
+
+    5% {
+        content: "Design |";
+    }
+
+    6% {
+        content: "Designe |";
+    }
+
+    7% {
+        content: "Designer |";
+    }
+
+    8% {
+        content: "Designe |";
+    }
+
+    9% {
+        content: "Design |";
+    }
+
+    10% {
+        content: "Desig |";
+    }
+
+    11% {
+        content: "Desi |";
+    }
+
+    12% {
+        content: "Des |";
+    }
+
+    13% {
+        content: "De |";
+    }
+
+    14% {
+        content: "Dev |";
+    }
+
+    15% {
+        content: "Deve |";
+    }
+
+    16% {
+        content: "Devel |";
+    }
+
+    17% {
+        content: "Develo |";
+    }
+
+    18% {
+        content: "Develop |";
+    }
+
+    19% {
+        content: "Develope |";
+    }
+
+    20% {
+        content: "Developer |";
+    }
+
+    21% {
+        content: "Develope |";
+    }
+
+    22% {
+        content: "Develop |";
+    }
+
+    23% {
+        content: "Develo |";
+    }
+
+    24% {
+        content: "Devel |";
+    }
+
+    25% {
+        content: "Deve |";
+    }
+
+    26% {
+        content: "Dev |";
+    }
+
+    27% {
+        content: "De |";
+    }
+
+    28% {
+        content: "D |";
+    }
+
+    29% {
+        content: "F |";
+    }
+
+    30% {
+        content: "Fr |";
+    }
+
+    31% {
+        content: "Fre |";
+    }
+
+    32% {
+        content: "Free |";
+    }
+
+    33% {
+        content: "Freel |";
+    }
+
+    34% {
+        content: "Freela |";
+    }
+
+    35% {
+        content: "Freelan |";
+    }
+
+    36% {
+        content: "Freelanc |";
+    }
+
+    37% {
+        content: "Freelance |";
+    }
+
+    38% {
+        content: "Freelancer |";
+    }
+
+    39% {
+        content: "Freelance |";
+    }
+
+    40% {
+        content: "Freelanc |";
+    }
+
+    41% {
+        content: "Freelan |";
+    }
+
+    42% {
+        content: "Freela |";
+    }
+
+    43% {
+        content: "Freel |";
+    }
+
+    44% {
+        content: "Free |";
+    }
+
+    45% {
+        content: "Fre |";
+    }
+
+    46% {
+        content: "Fr |";
+    }
+
+    47% {
+        content: "F |";
+    }
+
+    48% {
+        content: "p |";
+    }
+
+    49% {
+        content: "ph |";
+    }
+
+    50% {
+        content: "pho |";
+    }
+
+    51% {
+        content: "phot |";
+    }
+
+    52% {
+        content: "photo |";
+    }
+
+    53% {
+        content: "photog |";
+    }
+
+    54% {
+        content: "photogr |";
+    }
+
+    55% {
+        content: "photogra |";
+    }
+
+    56% {
+        content: "photograp |";
+    }
+
+    57% {
+        content: "photograph |";
+    }
+
+    58% {
+        content: "photographe |";
+    }
+
+    59% {
+        content: "photographer |";
+    }
+
+    60% {
+        content: "photographe |";
+    }
+
+    61% {
+        content: "photograph |";
+    }
+
+    62% {
+        content: "photograp |";
+    }
+
+    63% {
+        content: "photogra |";
+    }
+
+    64% {
+        content: "photogr |";
+    }
+
+    65% {
+        content: "photog |";
+    }
+
+    66% {
+        content: "photo |";
+    }
+
+    67% {
+        content: "phot |";
+    }
+
+    68% {
+        content: "pho |";
+    }
+
+    69% {
+        content: "ph |";
+    }
+
+    70% {
+        content: "p |";
+    }
+
+    71% {
+        content: "";
+    }
+}
+
+
+
+
+
+/* بدايه ال about */
+
+
+
+
+.sw {
+    width: 90%;
+
+    margin: auto;
+}
+
+.progress {
+    height: 20px;
+    border-radius: 0;
+}
+
+.item1 {
+    padding-right: 0;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+}
+
+.item2 p {
+    color: rgb(153, 153, 153);
+    font-size: 14px;
+}
+
+
+
+.pp p {
+    margin-top: 20px;
+    text-align: left;
+    color: rgb(116, 129, 130);
+    font-size: 16px;
+}
+
+
+
+
+
+.gcoler {
+    color: rgb(52, 52, 52);
+}
+
+.btnhover {
+    background-color: #1c1c1c;
+    color: white;
+    border: solid 2px #1c1c1c;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.btnhover:hover {
+    background-color: white;
+    color: 1c1c1c;
+    border-color: 1c1c1c;
+
+}
+
+
+
+/* service */
+
+
+
+
+.fs {
+    font-weight: 900;
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(52, 52, 52);
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.fs::after {
+    content: "";
+    width: 200px;
+    height: 10px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: 0;
+    right: 41%;
+
+}
+
+.box {
+    background-color: white;
+}
+
+.box i {
+    padding: 15px;
+    background-color: #f7f7f7;
+    border-radius: 50%;
+    transition: all 0.3s ease; /* إضافة تأثير الانسياب عند التحول */
+}
+
+.box i:hover {
+    background-color: #ff6347; /* تغيير اللون إلى الأحمر الداكن */
+    color: white; /* تغيير لون الأيقونة إلى الأبيض */
+    transform: scale(1.1); /* تكبير الأيقونة قليلاً */
+}
+
+
+
+
+
+
+/* work بدايه ال  */
+
+.poroh2hover::after {
+    content: "";
+    width: 200px;
+    height: 10px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+
+
+
+:root {
+    --main-transition: all 0.3s;
+}
+
+/* .portfolio .layer {
+    background-color: rgba(0, 0, 0, 0.2);
+    opacity: 1;
+
+} */
+
+/* .btnfocs{
+color: #1c1c1c;
+}
+.btnfocs:focus{
+    color: #1c1c1c;
+} */
+/* .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: black;
+    background-color: var(--main-color);
+} */
+
+
+
+
+.portfolio .inner_img:hover .layer {
+    opacity: 1;
+    background-color: white;
+    box-sizing: border-box;
+    border: solid 4px gray;
+
+
+}
+
+.portfolio .inner_img .content {
+    opacity: 0;
+}
+
+.portfolio .inner_img:hover .content {
+    opacity: 1;
+}
+
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: var(--main-color);
+}
+
+.portfolio .nav-link {
+    color: black;
+}
+
+
+
+
+
+/* client */
+
+/* .bgfo{
+    background:
+    linear-gradient(rgba(0, 120, 255 ,.5), rgba(0, 120, 255,0.5)),
+    url(../image/overlay-bg.jpg);
+    background-size: cover;
+    background-attachment : fixed
+} */
+.testafter::after {
+    content: "";
+    width: 290px;
+    height: 10px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.carousel-item img {
+    width: 80px;
+    height: 80px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    text-indent: 0;
+    background-color: gray;
+}
+/* .carousel-indicators img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+} */
+
+
+
+
+
+
+
+/* عداااد */
+
+
+
+
+
+
+.width90 {
+    width: 90%;
+    margin: auto;
+}
+
+.icon-design {
+    background-color: #f7f7f7;
+    color: #1c1c1c;
+    padding: 20px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.icon-design:hover {
+    background-color: #4CAF50;
+    color: white;
+    transform: scale(1.2);
+}
+
+
+
+/* our team */
+
+.ourteamafter::after {
+    content: "";
+    width: 220px;
+    height: 10px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.contentlog {
+    background-color: rgba(52, 52, 52, 0.8);
+}
+
+.contentlog p {
+    font-size: 20px;
+    color: white;
+    margin: 0;
+}
+
+.padbor {
+    background-color: black;
+}
+
+.itemhover {
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    background-color: rgba(255, 255, 255, 0.9);
+    opacity: 0;
+    transform: scale(0.5, 0.5);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.colhover:hover .itemhover {
+    opacity: 1;
+    transform: rotateY(180deg);
+}
+
+.hoverrr img {
+    transition: transform 0.5s;
+}
+
+.hoverrr:hover img {
+    transform: scale(1.3, 1.3);
+}
+
+
+
+/*  contact*/
+/* القواعد العامة (لأجهزة الكمبيوتر) */
+.contentafter::after {
+    content: "";
+    width: 250px;
+    height: 10px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.inputbg {
+    background-color: #f4f4f4;
+}
+
+.contact .btn {
+    color: white;
+}
+
+.width80 {
+    width: 80%;
+    margin: auto;
+}
+
+.box {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* end */
+
+
+
+.endd {
+    text-align: center;
+    color: #fff;
+    padding: 25px 0;
+    background: #1c1c1c;
+}
+
+.endd p {
+    color: rgb(116, 129, 130);
+}
